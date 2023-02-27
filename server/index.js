@@ -11,7 +11,16 @@ app.get("/",(req,res) =>{
     res.send("app is runing fine")
 })
 
-app.get("/about",(req,res) =>{
+// middleware 
+
+const middleware = (req,res,next) =>{
+    console.log("we are working on middleware")
+    next()
+
+}
+
+
+app.get("/about", middleware,(req,res) =>{
     res.send(" this is about page ")
 })
 
