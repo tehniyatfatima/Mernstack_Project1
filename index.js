@@ -11,6 +11,13 @@ app.get("/",(req,res) =>{
     res.send("app is runing fine")
 })
 
+app.get("/about",(req,res) =>{
+    res.send(" this is about page ")
+})
+
+app.get("/contact",(req,res) =>{
+    res.send(" this is Contact page ")
+})
 
 
 app.listen(port,() =>{
