@@ -1,0 +1,1 @@
+mongodb+srv://Tehniyat_Fatima_Fareed:<password>@cluster0.4zyocie.mongodb.net/?retryWrites=true&w=majority
